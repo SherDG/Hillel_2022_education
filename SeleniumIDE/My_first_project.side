@@ -1,0 +1,142 @@
+{
+  "id": "08ed7aad-5269-4e9d-aec0-5b18ba153f8b",
+  "version": "2.0",
+  "name": "My_first_project",
+  "url": "https://demoqa.com",
+  "tests": [{
+    "id": "92e14452-7d52-4b66-a36e-383d4d58ef4f",
+    "name": "Check book stoke on demoqa",
+    "commands": [{
+      "id": "c603ddb2-4f4b-4105-b249-cd27ed6313e6",
+      "comment": "",
+      "command": "open",
+      "target": "/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "293f56c4-a63b-4134-b785-c81ae63f4e2f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1040",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8a83dea0-44d7-4b8d-a2a2-757e6778f7c9",
+      "comment": "",
+      "command": "type",
+      "target": "id=userName",
+      "targets": [
+        ["id=userName", "id"],
+        ["css=#userName", "css:finder"],
+        ["xpath=//input[@id='userName']", "xpath:attributes"],
+        ["xpath=//div[@id='userName-wrapper']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "user123"
+    }, {
+      "id": "a66ddbda-1e42-4880-a5cc-1d64f3ae7ac2",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='password-wrapper']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d64f94e-90c0-47f7-9519-1b5aea1a45a8",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='password-wrapper']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/input", "xpath:position"]
+      ],
+      "value": "ex95esjV% "
+    }, {
+      "id": "3b14ee8e-6cf3-4f46-900b-ea00a4fd28c8",
+      "comment": "",
+      "command": "click",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["css=#login", "css:finder"],
+        ["xpath=//button[@id='login']", "xpath:attributes"],
+        ["xpath=//form[@id='userForm']/div[4]/div/button", "xpath:idRelative"],
+        ["xpath=//div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "40acf0fa-75a1-4f3b-a149-c648b143800a",
+      "comment": "",
+      "command": "click",
+      "target": "id=gotoStore",
+      "targets": [
+        ["id=gotoStore", "id"],
+        ["css=#gotoStore", "css:finder"],
+        ["xpath=//button[@id='gotoStore']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/div[2]/div[2]/div[2]/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Go To Book Store')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "91c793fd-9a51-458c-87e0-cd278a27a5e5",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//*[@id='see-book-Git Pocket Guide']/a",
+      "targets": [
+        ["linkText=Git Pocket Guide", "linkText"],
+        ["css=#see-book-Git\\ Pocket\\ Guide > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Git Pocket Guide')]", "xpath:link"],
+        ["xpath=//span[@id='see-book-Git Pocket Guide']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/books?book=9781449325862')]", "xpath:href"],
+        ["xpath=//span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Git Pocket Guide')]", "xpath:innerText"]
+      ],
+      "value": "Git Pocket Guide"
+    }, {
+      "id": "1fc97870-35ec-4daa-949a-e50ebb7c4bb6",
+      "comment": "",
+      "command": "click",
+      "target": "id=submit",
+      "targets": [
+        ["id=submit", "id"],
+        ["css=#submit", "css:finder"],
+        ["xpath=//button[@id='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='searchBox-wrapper']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Log out')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "09fa274c-c98e-4e16-8f4c-f32a105899da",
+    "name": "Test #2",
+    "commands": [{
+      "id": "efbeb3c5-bfff-4d88-9eb2-d41b1f8ea872",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "141f8152-819f-4828-9839-8c4798c666ab",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["92e14452-7d52-4b66-a36e-383d4d58ef4f"]
+  }],
+  "urls": ["https://demoqa.com/"],
+  "plugins": []
+}
