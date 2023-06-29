@@ -2,7 +2,6 @@ a = 5
 greeting = "Hello,"
 # name = "Zoey"
 
-
 print(a + 3)
 
 print(greeting + " there!")

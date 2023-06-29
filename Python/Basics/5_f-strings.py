@@ -1,4 +1,4 @@
-greeting = "Hello,"
+greeting = "Hello"
 name = "Zoey"
 
 name = "Eric"
